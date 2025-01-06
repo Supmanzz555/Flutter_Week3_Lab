@@ -1,6 +1,6 @@
 # Flutter_Week3_Lab HomeWork
 
-A new Flutter project.
+A new Flutter project by: 640710556 maenrat phaiphon CS
 
 ## Getting Started
 
