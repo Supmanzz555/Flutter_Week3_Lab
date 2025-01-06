@@ -1,4 +1,4 @@
-# ex_1
+# Flutter_Week3_Lab HomeWork
 
 A new Flutter project.
 
