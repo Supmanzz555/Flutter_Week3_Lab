@@ -58,7 +58,7 @@ class MyWidget2 extends StatelessWidget {
             ),
             // Second Row: Post Image with Padding
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 16.0), // Add padding here
+              padding: const EdgeInsets.symmetric(horizontal: 16.0), 
               child: Container(
                 width: double.infinity,
                 height: 200,
