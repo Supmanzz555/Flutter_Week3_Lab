@@ -17,14 +17,14 @@ class MyWidget4 extends StatelessWidget {
           Container(
             width: double.infinity,
             color: Colors.blue,
-            padding: const EdgeInsets.symmetric(vertical: 40), // Adjust vertical padding for space
+            padding: const EdgeInsets.symmetric(vertical: 40), 
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 // Profile Picture
                 ClipOval(
                   child: Image.network(
-                    'https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg?auto=compress&cs=tinysrgb&w=400', // Replace with actual profile picture URL
+                    'https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg?auto=compress&cs=tinysrgb&w=400', 
                     width: 80,
                     height: 80,
                     fit: BoxFit.cover,
@@ -90,7 +90,6 @@ class MyWidget4 extends StatelessWidget {
                 // Edit Profile Button
                 ElevatedButton(
                   onPressed: () {
-                    // Add your edit profile functionality here
                   },
                   child: const Text('Edit Profile'),
                   style: ElevatedButton.styleFrom(
@@ -101,7 +100,6 @@ class MyWidget4 extends StatelessWidget {
                 // Logout Button
                 ElevatedButton(
                   onPressed: () {
-                    // Add your logout functionality here
                   },
                   child: const Text('Logout'),
                   style: ElevatedButton.styleFrom(
